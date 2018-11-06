@@ -1,0 +1,6 @@
+framework module Pods_PrettyTumblrFeedUITests {
+  umbrella header "Pods-PrettyTumblrFeedUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
