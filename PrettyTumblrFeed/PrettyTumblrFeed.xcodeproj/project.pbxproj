@@ -10,8 +10,8 @@
 		322050B83550E16D60669822 /* Pods_PrettyTumblrFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A3562809F2C68A7694985 /* Pods_PrettyTumblrFeedUITests.framework */; };
 		3F80F48AC9E768B08E6546CB /* Pods_PrettyTumblrFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3705A5DF72234446FB2270 /* Pods_PrettyTumblrFeedTests.framework */; };
 		472F5C0FBDB8B7B81335E857 /* Pods_PrettyTumblrFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDBF15088012A855C055A3D /* Pods_PrettyTumblrFeed.framework */; };
+		90CF778021912EE70061EE5A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CF777F21912EE70061EE5A /* PhotosViewController.swift */; };
 		90DD0880219127A1008B7D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD087F219127A1008B7D79 /* AppDelegate.swift */; };
-		90DD0882219127A1008B7D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DD0881219127A1008B7D79 /* ViewController.swift */; };
 		90DD0885219127A1008B7D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD0883219127A1008B7D79 /* Main.storyboard */; };
 		90DD0887219127A3008B7D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DD0886219127A3008B7D79 /* Assets.xcassets */; };
 		90DD088A219127A3008B7D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD0888219127A3008B7D79 /* LaunchScreen.storyboard */; };
@@ -45,9 +45,9 @@
 		5015E1AE19E6B305DE416FEE /* Pods-PrettyTumblrFeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyTumblrFeedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyTumblrFeedUITests/Pods-PrettyTumblrFeedUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E3705A5DF72234446FB2270 /* Pods_PrettyTumblrFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyTumblrFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDBF15088012A855C055A3D /* Pods_PrettyTumblrFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyTumblrFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CF777F21912EE70061EE5A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		90DD087C219127A1008B7D79 /* PrettyTumblrFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyTumblrFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD087F219127A1008B7D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90DD0881219127A1008B7D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90DD0884219127A1008B7D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90DD0886219127A3008B7D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90DD0889219127A3008B7D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,6 +112,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		90CF778121912FD10061EE5A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90CF777F21912EE70061EE5A /* PhotosViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		90DD0873219127A1008B7D79 = {
 			isa = PBXGroup;
 			children = (
@@ -137,8 +145,8 @@
 		90DD087E219127A1008B7D79 /* PrettyTumblrFeed */ = {
 			isa = PBXGroup;
 			children = (
+				90CF778121912FD10061EE5A /* View Controllers */,
 				90DD087F219127A1008B7D79 /* AppDelegate.swift */,
-				90DD0881219127A1008B7D79 /* ViewController.swift */,
 				90DD0883219127A1008B7D79 /* Main.storyboard */,
 				90DD0886219127A3008B7D79 /* Assets.xcassets */,
 				90DD0888219127A3008B7D79 /* LaunchScreen.storyboard */,
@@ -397,8 +405,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DD0882219127A1008B7D79 /* ViewController.swift in Sources */,
 				90DD0880219127A1008B7D79 /* AppDelegate.swift in Sources */,
+				90CF778021912EE70061EE5A /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
